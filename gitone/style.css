@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #212529;
+}
+.card-1{
+    background-image: url(https://zunair-practice.web.app/images/CategoryImages/sub-banner-1.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+.card-2{
+    background-image: url(https://zunair-practice.web.app/images/CategoryImages/sub-banner-2.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+.card-3{
+    background-image: url(https://zunair-practice.web.app/images/CategoryImages/sub-banner-3.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+.card-img-1{
+    background-image: url(https://zunair-practice.web.app/images/CategoryImages/cms-banner-1.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+.card-img-2{
+    background-image: url(https://zunair-practice.web.app/images/CategoryImages/cms-banner-2.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+.banner-img{
+    background-image: url(https://zunair-practice.web.app/images/offer-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- header1 -->
+    <div class="main">
+        <img src="images/header-offer-banner.jpg" height="40" alt="">
+    </div>
+<!-- header1 End -->
+        <!-- header2 -->
+        <nav class="navbar navbar-expand-lg navbar-dark header">
+            <div class="container-fluid">
+              <a class="navbar-brand"> <img src="https://zunair-practice.web.app/images/logo.jpg" alt="BigStore" width="150" /></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <form class="d-flex w-75 mx-auto" role="search">
+                    <input class="form-control rounded-0 w-75" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn bg-white rounded-0" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                  </form>
+                <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">AboutUs</a>
+                  </li>
+                  <li class="nav-item">
+                    <button type="button" class="btn border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <i class="fa-solid fa-user text-white"></i>
+                    </button>
+        
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-body d-flex justify-content-around">
+                            <h5>
+                              <a class="nav-link text-black" href="login.html">Login <i
+                                  class="fa-solid fa-right-to-bracket"></i></a>
+                            </h5>
+                            <h5>
+                              <a href="SignUP.html" class="nav-link text-black">Signup <i
+                                  class="fa-solid fa-user-plus"></i></a>
+                            </h5>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-danger header" data-bs-dismiss="modal">
+                              <i class="fa-solid fa-rectangle-xmark "></i>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    <!-- header2 End -->
+    
+    <!-- Login -->
+    <section class="container my-4 bg-dark w-50 text-light p-5 mt-3">
+        <form class="row g-3">
+            <div class="row mb-3">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3">
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary ">Sign in</button>
+          </form>     
+          <div class="text-center">
+            <br>
+            <hr>
+
+            <h4>
+                OR LOGIN WITH
+            </h4>
+            <br>
+            <div class="d-flex justify-content-around flex-wrap">
+
+                <button onclick="window.location.replace('../index.html')"
+                    style="background-color: #4267B2; color:white ;"
+                    class="fs-4 fw-bold border-0 rounded p-2 mb-2 ">
+                    FACEBOOK <i class="fa-brands fs-2  fa-facebook text-white"></i>
+                </button>
+                <button onclick="window.location.replace('../index.html')"
+                    class="fs-4 rounded p-2  fw-bold border-0 mb-2"
+                    style="background-color: #dd4b39; color:white ;">
+                    GOOGLE <i class="fa-brands fs-2  fa-google-plus text-white"></i>
+            </div>
+            </button>
+        </div>
+    </section>
+
+
+
+
+
+               <!-- Footer -->
+               <br>
+               <footer class="header container-fluid  text-white bg-dark">
+                 <main class="container">
+                   <section class="row">
+                     <div class="col-md-3">
+                       <div class="row">
+                         <div class="col-3">
+             
+                           <div class="text-warning p-2">
+             
+                             <i class="fa-solid fa-truck fs-1"></i>
+                           </div>
+                         </div>
+             
+                         <div class="col-9">
+             
+                           <div class="text-white text-center pt-2">
+             
+             
+                             <h5>FREE DELIVERY</h5>
+                             <p>Free Shipping On All Order</p>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="col-md-3">
+                       <div class="row">
+                         <div class="col-3">
+             
+                           <div class="text-warning p-2">
+             
+                             <i class="fa-solid fa-sack-dollar fs-1"></i>
+                           </div>
+                         </div>
+             
+                         <div class="col-9">
+             
+                           <div class="text-white text-center pt-2">
+                             <h5>MONEY RETURN</h5>
+                             <p>Back Guarantee In 7 Days</p>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="col-md-3">
+                       <div class="row">
+                         <div class="col-3">
+             
+                           <div class="text-warning p-2">
+             
+                             <i class="fa-solid fa-percent fs-1"></i>
+                           </div>
+                         </div>
+             
+                         <div class="col-9">
+                           <div class="text-white text-center pt-2">
+                             <h5>Member Discount</h5>
+                             <p>Onevery Order Over $130.00</p>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="col-md-3">
+                       <div class="row">
+                         <div class="col-3"> 
+                           <div class="text-warning p-2">
+                             <i class="fa-solid fa-hand-holding-dollar fs-1"></i>
+                           </div>
+                         </div>
+                         <div class="col-9">
+             
+                           <div class="text-white text-center pt-2">
+                             <h5>Return Policy</h5>
+                             <p>Support 24 Hours A Day</p>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                   </section>
+                   <br>
+                   <hr>
+                   <section class="row">
+                     <div class="col-md-6">
+                       <div>
+                         <h2>Store Information</h2>
+                         <p><i class="fa-solid fa-location-dot"></i> Bigstore - Online Mega Store
+                           507-Union Trade Centre
+                           France</p>
+                         <p>
+                           <a href="tel:000000000" class="text-white text-decoration-none">
+                             <i class="fa-solid fa-phone"></i> 000-000-0000
+                           </a>
+                         </p>
+                         <p>
+                           <a href="mailto:someone@gmail.com" class="text-white text-decoration-none">
+                             <i class="fa-solid fa-envelope"></i> sales@yourcompany.com
+                           </a>
+                         </p>
+                       </div>
+                     </div>
+                     <div class="col-md-6">
+                       <div class="text-center">
+                         <h2>Newsletter</h2>
+                         <p>Subscribe to our latest newsletter to get news about special discounts.</p>
+                         <div class="d-flex p-2 seachBar " role="search">
+                           <input class="form-control rounded-0 " type="search" placeholder="Search" aria-label="Search" />
+                           <button class="btn bg-white rounded-0" type="submit">
+                             <i class="fa-solid fa-paper-plane"></i>
+                           </button>
+                         </div>
+                         <a href="">
+                           <img src="https://zunair-practice.web.app/images/icons/app-icon-1.png" alt="appStore">
+                         </a>
+                         <a href="">
+                           <img src="https://zunair-practice.web.app/images/icons/app-icon-2.png" alt="GooglePLay">
+                         </a>
+                       </div>         
+                     </div>
+                   </section>
+                   <br>
+                   <br>
+                   <br>
+                   <hr>
+                   <section class="row m-0">
+                     <div class="col-md-4">
+                       <div class="d-flex justify-content-around">
+                         <a href="" class="text-white  fs-3">
+                           <i class="fa-brands fa-facebook"></i>
+                         </a>
+                         <a href="" class="text-white   fs-3"> <i class="fa-brands fa-twitter"></i></a>
+                         <a href="" class="text-white   fs-3"> <i class="fa-solid fa-rss"></i></a>
+                         <a href="" class="text-white  fs-3"> <i class="fa-brands fa-youtube"></i></a>
+                         <a href="" class="text-white   fs-3"> <i class="fa-brands fa-pinterest"></i></a>
+                         <a href="" class="text-white   fs-3"> <i class="fa-brands fa-instagram"></i></a>
+                       </div>
+                     </div>
+                     <div class="col-md-4">
+                       <div class="m-0 mt-3" style="font-size:0.9rem ;">
+                         <p>
+                           © 2022 - Ecommerce software by PrestaShop™
+                         </p>
+                       </div>
+                     </div>
+                     <div class="col-md-4">
+                       <div class="d-flex justify-content-around m-0 my-2">         
+                         <img src="https://zunair-practice.web.app/images/paymentImg/carte_bleue.png" alt="">
+                         <img src="https://zunair-practice.web.app/images/paymentImg/visa.png" alt="">
+                         <img src="https://zunair-practice.web.app/images/paymentImg/master_card.png" alt="">
+                         <img src="https://zunair-practice.web.app/images/paymentImg/american_express.png" alt="">
+                         <img src="https://zunair-practice.web.app/images/paymentImg/paypal.png" alt="">
+                       </div>
+                     </div>
+                   </section>
+                 </main>
+               </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+      </script>
+</body>
+</html>
