@@ -47,3 +47,27 @@
     background-repeat: no-repeat;
 
 }
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .seachBar {
+        margin-top: 2px;
+        width: 100% !important;
+    }
+
+    .seachBar input {
+        width: 90% !important;
+    }
+
+
+}
+
+@media only screen and (max-width: 750px) {
+    .CustomForm {
+        width: 100% !important;
+    }
+
+
+}
